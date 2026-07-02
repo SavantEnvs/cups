@@ -1,0 +1,47 @@
+cupsJWTNew(NULL, NULL): PASS
+cupsJWTSetClaimNumber(CUPS_JWT_IAT): PASS
+cupsJWTSetClaimString(CUPS_JWT_SUB): PASS
+cupsJWTMakePrivateKey(HS256): PASS
+cupsJWTSign(HS256): PASS
+cupsJWTHasValidSignature(HS256): PASS
+cupsJWTMakePrivateKey(RS256): PASS
+cupsJWTMakePublicKey(RS256): PASS
+cupsJWTSign(RS256): PASS
+cupsJWTHasValidSignature(RS256): PASS
+cupsJWTSign(RS384): PASS
+cupsJWTHasValidSignature(RS384): PASS
+cupsJWTSign(RS512): PASS
+cupsJWTHasValidSignature(RS512): PASS
+cupsJWTMakePrivateKey(ES256): PASS
+cupsJWTMakePublicKey(ES256): PASS
+cupsJWTSign(ES256): PASS
+cupsJWTHasValidSignature(ES256): PASS
+cupsJWTMakePrivateKey(ES384): PASS
+cupsJWTMakePublicKey(ES384): PASS
+cupsJWTSign(ES384): PASS
+cupsJWTHasValidSignature(ES384): PASS
+cupsJWTMakePrivateKey(ES512): PASS
+cupsJWTMakePublicKey(ES512): PASS
+cupsJWTSign(ES512): PASS
+cupsJWTHasValidSignature(ES512): PASS
+cupsJWTDelete(): PASS
+cupsJWTImportString("eyJ0eXAiOiJKV1QiLA0KICJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJqb2UiLA0KICJleHAiOjEzMDA4MTkzODAsDQogImh0dHA6Ly9leGFtcGxlLmNvbS9pc19yb290Ijp0cnVlfQ.dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk", CUPS_JWS_FORMAT_COMPACT): PASS
+cupsJSONImportString("{"kty":"oct","k":"AyM1SysPpbyDfgZld3umj1qzKObwVMkoqQ-EstJQLr_T-1qS0gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr1Z9CAow"}"): PASS
+cupsJWTHasValidSignature(): PASS
+cupsJWTImportString("eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJqb2UiLA0KICJleHAiOjEzMDA4MTkzODAsDQogImh0dHA6Ly9leGFtcGxlLmNvbS9pc19yb290Ijp0cnVlfQ.cC4hiUPoj9Eetdgtv3hF80EGrhuB__dzERat0XF9g2VtQgr9PJbu3XOiZj5RZmh7AAuHIm4Bh-0Qc_lF5YKt_O8W2Fp5jujGbds9uJdbF9CUAr7t1dnZcAcQjbKBYNX4BAynRFdiuB--f_nZLgrnbyTyWzO75vRK5h6xBArLIARNPvkSjtQBMHlb1L07Qe7K0GarZRmB_eSN9383LcOLn6_dO--xi12jzDwusC-eOkHWEsqtFZESc6BfI7noOPqvhJ1phCnvWh6IeYI2w9QOYEUipUTI8np6LbgGY9Fs98rqVt5AXLIhWkWywlVmtVrBp0igcN_IoypGlUPQGe77Rw", CUPS_JWS_FORMAT_COMPACT): PASS
+cupsJSONImportString("{"kty":"RSA","n":"ofgWCuLjybRlzo0tZWJjNiuSfb4p4fAkd_wWJcyQoTbji9k0l8W26mPddxHmfHQp-Vaw-4qPCJrcS2mJPMEzP1Pt0Bm4d4QlL-yRT-SFd2lZS-pCgNMsD1W_YpRPEwOWvG6b32690r2jZ47soMZo9wGzjb_7OMg0LOL-bSf63kpaSHSXndS5z5rexMdbBYUsLA9e-KXBdQOS-UTo7WTBEMa2R2CapHg665xsmtdVMTBQY4uDZlxvb3qCo5ZwKh9kG4LT6_I5IhlJH7aGhyxXFvUK-DWNmoudF8NAco9_h9iaGNj8q2ethFkMLs91kzk2PAcDTW9gb54h4FRWyuXpoQ","e":"AQAB","d":"Eq5xpGnNCivDflJsRQBXHx1hdR1k6Ulwe2JZD50LpXyWPEAeP88vLNO97IjlA7_GQ5sLKMgvfTeXZx9SE-7YwVol2NXOoAJe46sui395IW_GO-pWJ1O0BkTGoVEn2bKVRUCgu-GjBVaYLU6f3l9kJfFNS3E0QbVdxzubSu3Mkqzjkn439X0M_V51gfpRLI9JYanrC4D4qAdGcopV_0ZHHzQlBjudU2QvXt4ehNYTCBr6XCLQUShb1juUO1ZdiYoFaFQT5Tw8bGUl_x_jTj3ccPDVZFD9pIuhLhBOneufuBiB4cS98l2SR_RQyGWSeWjnczT0QU91p1DhOVRuOopznQ","p":"4BzEEOtIpmVdVEZNCqS7baC4crd0pqnRH_5IB3jw3bcxGn6QLvnEtfdUdiYrqBdss1l58BQ3KhooKeQTa9AB0Hw_Py5PJdTJNPY8cQn7ouZ2KKDcmnPGBY5t7yLc1QlQ5xHdwW1VhvKn-nXqhJTBgIPgtldC-KDV5z-y2XDwGUc","q":"uQPEfgmVtjL0Uyyx88GZFF1fOunH3-7cepKmtH4pxhtCoHqpWmT8YAmZxaewHgHAjLYsp1ZSe7zFYHj7C6ul7TjeLQeZD_Yw: PASS
+cupsJWTHasValidSignature(): PASS
+cupsCreateCredentials(xxx-rsa-2048): PASS
+cupsJWTLoadCredentials(xxx-rsa-2048): PASS
+cupsJWTNew(NULL, NULL): PASS
+cupsJWTSetClaimNumber(CUPS_JWT_IAT): PASS
+cupsJWTSetClaimString(CUPS_JWT_SUB): PASS
+cupsJWTSign(RS256): PASS
+cupsJWTHasValidSignature(RS256): PASS
+cupsCreateCredentials(xxx-ecdsa-p256): PASS
+cupsJWTLoadCredentials(xxx-ecdsa-p256): PASS
+cupsJWTNew(NULL, NULL): PASS
+cupsJWTSetClaimNumber(CUPS_JWT_IAT): PASS
+cupsJWTSetClaimString(CUPS_JWT_SUB): PASS
+cupsJWTSign(ES256): PASS
+cupsJWTHasValidSignature(ES256): PASS

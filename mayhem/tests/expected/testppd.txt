@@ -1,0 +1,50 @@
+ppdOpenFile(test.ppd): PASS
+ppdFindAttr(wildcard): PASS
+ppdFindNextAttr(wildcard): PASS
+ppdFindAttr(Foo): PASS
+ppdFindNextAttr(Foo): PASS
+ppdMarkDefaults: PASS
+ppdEmitString (defaults): PASS
+ppdEmitString (custom size and string): PASS
+cupsGetConflicts(InputSlot=Envelope): PASS
+ppdConflicts(): PASS
+cupsResolveConflicts(InputSlot=Envelope): PASS
+cupsResolveConflicts(No option/choice): PASS
+ppdInstallableConflict(): PASS
+ppdPageSizeLimits: PASS
+cupsMarkOptions(media=iso-a4): PASS
+cupsMarkOptions(media=na_letter_8.5x11in): PASS
+cupsMarkOptions(media=oe_letter.fullbleed_8.5x11in): PASS
+cupsMarkOptions(media=A4): PASS
+cupsMarkOptions(media=A4, InputSlot=Envelope): PASS
+cupsMarkOptions(media=envelope, InputSlot=Tray): PASS
+cupsMarkOptions(media=A4, PageSize=Letter): PASS
+cupsMarkOptions(media=A4, PageSize=bogus): PASS
+cupsMarkOptions(media=A4,envelope, PageSize=Letter, InputSlot=Tray): PASS
+cupsMarkOptions(media=Custom.8x10in): PASS
+ppdLocalizeIPPReason(text): PASS
+ppdLocalizeIPPReason(http): PASS
+ppdLocalizeIPPReason(help): PASS
+ppdLocalizeIPPReason(file): PASS
+ppdLocalizeIPPReason(fr text): PASS
+ppdLocalizeIPPReason(zh_TW text): PASS
+ppdLocalizeMarkerName(bogus): PASS
+ppdLocalizeMarkerName(cyan): PASS
+ppdLocalizeMarkerName(fr cyan): PASS
+ppdLocalizeMarkerName(zh_TW cyan): PASS
+ppdOpenFile(test2.ppd): PASS
+ppdMarkDefaults: PASS
+ppdEmitString (defaults): PASS
+ppdConflicts(): PASS
+cupsResolveConflicts(Quality=Photo): PASS
+cupsResolveConflicts(No option/choice): PASS
+cupsResolveConflicts(loop test): PASS
+ppdInstallableConflict(): PASS
+ppdPageSizeLimits(default): PASS
+ppdPageSizeLimits(InputSlot=Manual): PASS
+ppdPageSizeLimits(Quality=Photo): PASS
+ppdPageSizeLimits(Quality=Photo): PASS
+_cupsRasterExecPS("setpagedevice"): PASS
+_cupsRasterExecPS("roll"): PASS
+_cupsRasterExecPS("dup index"): PASS
+_cupsRasterExecPS("%%Begin/EndFeature code"): PASS

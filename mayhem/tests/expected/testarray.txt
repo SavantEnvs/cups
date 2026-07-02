@@ -1,0 +1,20 @@
+cupsArrayNew3: PASS
+cupsArrayGetUserData: PASS
+cupsArrayAdd: PASS
+cupsArrayGetCount: PASS
+cupsArrayGetFirst: PASS
+cupsArrayGetNext: PASS
+cupsArrayGetLast: PASS
+cupsArrayGetPrev: PASS
+cupsArrayFind: PASS
+cupsArrayGetCurrent: PASS
+cupsArrayDup: PASS
+cupsArrayRemove: PASS
+cupsArrayClear: PASS
+Load unique words: PASS
+Delete While Iterating: PASS
+cupsArraySave: PASS
+cupsArrayRestore: PASS
+cupsArrayNewStrings(" \t\nfoo bar\tboo\nfar", ' '): PASS
+cupsArrayAddStrings(array, "foo2,bar2", ','): PASS
+cupsArrayNewStrings("{value='foo'},{value="bar"}", ','): PASS

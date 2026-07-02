@@ -1,0 +1,20 @@
+ppdOpenFile(test.ppd): PASS
+_ppdCacheCreateWithPPD(NULL, ppd): PASS
+_ppdCacheWriteFile(test.pwg): PASS
+_ppdCacheCreateWithFile(test.pwg): PASS
+_ppdCacheGetPageSize(keyword=Letter): PASS
+_ppdCacheGetPageSize(media=Letter): PASS
+_ppdCacheGetPageSize(keyword=A4): PASS
+_ppdCacheGetPageSize(media=A4): PASS
+_ppdCacheDestroy(pc): PASS
+pwgMediaForPWG("iso_a4_210x297mm"): PASS
+pwgMediaForPWG("roll_max_36.1025x3622.0472in"): PASS
+pwgMediaForPWG("disc_test_10x100mm"): PASS
+pwgMediaForLegacy("na-letter"): PASS
+pwgMediaForPPD("4x6"): PASS
+pwgMediaForPPD("10x15cm"): PASS
+pwgMediaForPPD("Custom.10x15cm"): PASS
+pwgMediaForSize(29700, 42000): PASS
+pwgMediaForSize(9842, 19050): PASS
+pwgMediaForSize(9800, 19000): PASS
+Duplicate size test: PASS

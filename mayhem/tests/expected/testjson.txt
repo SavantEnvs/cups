@@ -1,0 +1,46 @@
+cupsJSONNew(root object): PASS
+cupsJSONGetCount(root): PASS
+cupsJSONGetType(root): PASS
+cupsJSONNewKey('string'): PASS
+cupsJSONGetType(key): PASS
+cupsJSONNewString('value'): PASS
+cupsJSONGetType(string): PASS
+cupsJSONNewKey('number'): PASS
+cupsJSONNewNumber(42): PASS
+cupsJSONGetType(number): PASS
+cupsJSONNewKey('null'): PASS
+cupsJSONNew(null): PASS
+cupsJSONGetType(null): PASS
+cupsJSONNewKey('false'): PASS
+cupsJSONNew(false): PASS
+cupsJSONGetType(false): PASS
+cupsJSONNewKey('true'): PASS
+cupsJSONNew(true): PASS
+cupsJSONGetType(true): PASS
+cupsJSONNewKey('array'): PASS
+cupsJSONNew(array): PASS
+cupsJSONGetType(array): PASS
+cupsJSONNewString(array, 'foo'): PASS
+cupsJSONNewString(array, 'bar'): PASS
+cupsJSONNewNumber(array, 0.5): PASS
+cupsJSONNewNumber(array, 123456789123456789.0): PASS
+cupsJSONNew(array, null): PASS
+cupsJSONNewKey('object'): PASS
+cupsJSONNew(object): PASS
+cupsJSONNewKey(object, 'a'): PASS
+cupsJSONNewString(object, 'one'): PASS
+cupsJSONNewKey(object, 'b'): PASS
+cupsJSONNewNumber(object, 2): PASS
+cupsJSONNewKey('emptyArray'): PASS
+cupsJSONNew(array): PASS
+cupsJSONNewKey('emptyObject'): PASS
+cupsJSONNew(object): PASS
+cupsJSONGetCount(root): PASS
+cupsJSONFind('number'): PASS
+cupsJSONExportFile(root, 'test.json'): PASS
+cupsJSONImportFile('test.json'): PASS
+cupsJSONExportString(root): PASS
+cupsJSONImportString('{"string":"value","number":42,"null":null,"false":false,"true":true,"array":["foo","bar",0.5,123456789123456784,null],"object":{"a":"one","b":2},"emptyArray":[],"emptyObject":{}}'): PASS
+cupsJSONGetCount(imported): PASS
+cupsJSONDelete(root): PASS
+cupsJSONImportString('{"a":"\uD834\uDD1E"}'): PASS

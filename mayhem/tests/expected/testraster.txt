@@ -1,0 +1,72 @@
+cupsRasterOpen(CUPS_RASTER_WRITE): PASS
+cupsRasterWriteHeader2(page 1): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 2): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 3): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 4): PASS
+cupsRasterWritePixels: PASS
+cupsRasterOpen(CUPS_RASTER_READ): PASS
+cupsRasterReadHeader2(page 1): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 2): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 3): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 4): PASS
+cupsRasterReadPixels: PASS
+cupsRasterOpen(CUPS_RASTER_WRITE_COMPRESSED): PASS
+cupsRasterWriteHeader2(page 1): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 2): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 3): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 4): PASS
+cupsRasterWritePixels: PASS
+cupsRasterOpen(CUPS_RASTER_READ): PASS
+cupsRasterReadHeader2(page 1): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 2): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 3): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 4): PASS
+cupsRasterReadPixels: PASS
+cupsRasterOpen(CUPS_RASTER_WRITE_PWG): PASS
+cupsRasterWriteHeader2(page 1): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 2): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 3): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 4): PASS
+cupsRasterWritePixels: PASS
+cupsRasterOpen(CUPS_RASTER_READ): PASS
+cupsRasterReadHeader2(page 1): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 2): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 3): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 4): PASS
+cupsRasterReadPixels: PASS
+cupsRasterOpen(CUPS_RASTER_WRITE_APPLE): PASS
+cupsRasterWriteHeader2(page 1): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 2): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 3): PASS
+cupsRasterWritePixels: PASS
+cupsRasterWriteHeader2(page 4): PASS
+cupsRasterWritePixels: PASS
+cupsRasterOpen(CUPS_RASTER_READ): PASS
+cupsRasterReadHeader2(page 1): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 2): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 3): PASS
+cupsRasterReadPixels: PASS
+cupsRasterReadHeader2(page 4): PASS
+cupsRasterReadPixels: PASS
