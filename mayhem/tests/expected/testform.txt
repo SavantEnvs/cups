@@ -1,0 +1,13 @@
+cupsFormDecode(""): PASS
+cupsFormEncode(0 pairs): PASS
+cupsFormDecode("name=value"): PASS
+cupsFormEncode(1 pairs): PASS
+cupsFormDecode("name=value&name%5F2=value+2&third=3%2E1415926535"): PASS
+cupsFormEncode(3 pairs): PASS
+cupsFormDecode("bogus"): PASS
+cupsFormDecode("bogus=foo=bar"): PASS
+cupsFormDecode("nul=%00"): PASS
+cupsFormDecode("http://www.example.com:8080/userinfo?name=value&name%5F2=value+2&third=3%2E1415926535"): PASS
+cupsFormEncode(3 pairs): PASS
+cupsFormDecode("https://www.example.com/?name=value&name%5F2=value+2&third=3%2E1415926535"): PASS
+cupsFormEncode(3 pairs): PASS

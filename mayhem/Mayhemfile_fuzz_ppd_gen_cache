@@ -1,0 +1,9 @@
+project: savantenvs/cups
+target: fuzz_ppd_gen_cache
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar   # accumulated corpus (docs/seed-corpus.md)
+  - file://mayhem/fuzz_ppd_gen_cache/testsuite                                            # committed starter seeds
+cmds:
+  - cmd: /mayhem/fuzz_ppd_gen_cache
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_ppd.dict

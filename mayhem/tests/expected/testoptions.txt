@@ -1,0 +1,2 @@
+cupsParseOptions: PASS
+cupsEncodeOptions2: PASS

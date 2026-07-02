@@ -1,0 +1,6 @@
+# Build-context filter for mayhem/Dockerfile ONLY (BuildKit uses <Dockerfile>.dockerignore in preference
+# to the context-root .dockerignore). Unlike upstream's root .dockerignore, this KEEPS .git so the commit
+# image carries full history (SPEC §6.2 item 2). Prune only local build cruft.
+**/__pycache__
+**/.DS_Store
+**/node_modules

@@ -1,0 +1,47 @@
+Create Sample Request: PASS
+Write Sample to Memory: PASS
+Read Sample from Memory: PASS
+ippFindAttribute(media-col): PASS
+ippFindAttribute(media-size 1): PASS
+ippFindAttribute(media-size 2): PASS
+ippFindAttribute(media-col/media-size/x-dimension): PASS
+ippFindNextAttribute(media-col/media-size/x-dimension): PASS
+ippFindNextAttribute(media-col/media-size/x-dimension) again: PASS
+Read Bad Collection from Memory: PASS
+Read Mixed integer/rangeOfInteger from Memory: PASS
+ippFindAttribute(notify-lease-duration-supported): PASS
+ippValidateAttribute(integer w/invalid name): PASS
+ippValidateAttribute(keyword): PASS
+ippValidateAttribute(keyword w/invalid keyword): PASS
+ippValidateAttribute(mimeMediaType): PASS
+ippValidateAttribute(mimeMediaType w/invalid mimeMediaType): PASS
+ippValidateAttribute(nameWithLanguage): PASS
+ippValidateAttribute(nameWithLanguage w/invalid name): PASS
+ippValidateAttribute(nameWithLanguage w/invalid naturalLanguage): PASS
+ippValidateAttribute(textWithLanguage): PASS
+ippValidateAttribute(textWithLanguage w/invalid text): PASS
+ippValidateAttribute(textWithLanguage w/invalid naturalLanguage): PASS
+_ippFindOption("printer-type"): PASS
+ippNew(): PASS
+ippFileNew(): PASS
+ippFileSetAttributes(): PASS
+ippFileOpen("testipp.test", "r"): PASS
+ippFileRead(token_cb, true): PASS
+ippFileGetAttribute("job-name"): PASS
+ippFileGetAttribute("page-ranges"): PASS
+ippFileGetAttribute("media-col/media-color"): PASS
+ippFileGetAttribute("media-col/media-size/x-dimension"): PASS
+ippFileGetAttributes(): PASS
+ippNew(): PASS
+ippFileNew(): PASS
+ippFileSetAttributes(): PASS
+ippFileSetVar("color", "blue"): PASS
+ippFileOpen("testipp.test", "r"): PASS
+ippFileRead(token_cb, true): PASS
+ippFileGetAttribute("job-name"): PASS
+ippFileGetAttribute("page-ranges"): PASS
+ippFileGetAttribute("media-col/media-color"): PASS
+ippFileGetAttribute("media-col/media-size/x-dimension"): PASS
+ippFileGetAttributes(): PASS
+ippDateToTime(1970/01/02T00:00:00Z): PASS
+ippTimeToDate(86400): PASS

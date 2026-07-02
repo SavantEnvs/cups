@@ -1,0 +1,8 @@
+project: savantenvs/cups
+target: fuzz_http_core
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar   # accumulated corpus (docs/seed-corpus.md)
+  - file://mayhem/fuzz_http_core/testsuite                                            # committed starter seeds
+cmds:
+  - cmd: /mayhem/fuzz_http_core
+    libfuzzer: true

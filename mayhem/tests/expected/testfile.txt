@@ -1,0 +1,86 @@
+cupsFileOpen(write): PASS
+cupsFileIsCompressed(): PASS
+cupsFilePuts(): PASS
+cupsFilePrintf(): PASS
+cupsFilePutConf(): PASS
+cupsFilePutChar(): PASS
+cupsFileWrite(): PASS
+cupsFilePuts("partial line"): PASS
+cupsFileTell(): PASS
+cupsFileClose(): PASS
+cupsFileOpen(read): PASS
+cupsFileGets(): PASS
+cupsFileIsCompressed(): PASS
+cupsFileGetConf(TestLine): PASS
+cupsFileGetConf(TestConf): PASS
+cupsFileGetChar(): PASS
+cupsFileRead(): PASS
+cupsFileGetChar(partial line): PASS
+cupsFileTell(): PASS
+cupsFileClose(): PASS
+cupsFileOpen(write compressed): PASS
+cupsFileIsCompressed(): PASS
+cupsFilePuts(): PASS
+cupsFilePrintf(): PASS
+cupsFilePutConf(): PASS
+cupsFilePutChar(): PASS
+cupsFileWrite(): PASS
+cupsFilePuts("partial line"): PASS
+cupsFileTell(): PASS
+cupsFileClose(): PASS
+cupsFileOpen(read): PASS
+cupsFileGets(): PASS
+cupsFileIsCompressed(): PASS
+cupsFileGetConf(TestLine): PASS
+cupsFileGetConf(TestConf): PASS
+cupsFileGetChar(): PASS
+cupsFileRead(): PASS
+cupsFileGetChar(partial line): PASS
+cupsFileTell(): PASS
+cupsFileClose(): PASS
+cupsFileOpen(append 0): PASS
+cupsFileTell(): PASS
+cupsFileWrite(256 512-byte records): PASS
+cupsFileTell(): PASS
+cupsFileOpen(read 0): PASS
+cupsFileSeek(), cupsFileRead(): PASS
+cupsFileOpen(append 1): PASS
+cupsFileTell(): PASS
+cupsFileWrite(256 512-byte records): PASS
+cupsFileTell(): PASS
+cupsFileOpen(read 1): PASS
+cupsFileSeek(), cupsFileRead(): PASS
+cupsFileOpen(append 2): PASS
+cupsFileTell(): PASS
+cupsFileWrite(256 512-byte records): PASS
+cupsFileTell(): PASS
+cupsFileOpen(read 2): PASS
+cupsFileSeek(), cupsFileRead(): PASS
+cupsFileOpen(append 3): PASS
+cupsFileTell(): PASS
+cupsFileWrite(256 512-byte records): PASS
+cupsFileTell(): PASS
+cupsFileOpen(read 3): PASS
+cupsFileSeek(), cupsFileRead(): PASS
+cupsFileOpenFd(fd, "r"): PASS
+cupsFileClose(no read): PASS
+cupsFileOpen("testfile.txt", "r"): PASS
+cupsFileGets: PASS
+cupsFileRewind: PASS
+cupsFileGets: PASS
+cupsFileFind: PASS
+mkdir("test.d"): PASS
+cupsDirOpen(test.d): PASS
+cupsDirRead: PASS
+cupsFileOpen(test.d/testfile0.txt): PASS
+cupsFileOpen(test.d/testfile1.txt): PASS
+cupsFileOpen(test.d/testfile2.txt): PASS
+cupsFileOpen(test.d/testfile3.txt): PASS
+cupsFileOpen(test.d/testfile4.txt): PASS
+cupsFileOpen(test.d/testfile5.txt): PASS
+cupsFileOpen(test.d/testfile6.txt): PASS
+cupsFileOpen(test.d/testfile7.txt): PASS
+cupsFileOpen(test.d/testfile8.txt): PASS
+cupsFileOpen(test.d/testfile9.txt): PASS
+cupsDirOpen(test.d): PASS
+cupsDirRead: PASS

@@ -1,0 +1,13 @@
+cupsUTF8ToUTF32 of utfdemo.txt: PASS
+cupsUTF8ToCharset(CUPS_EUC_JP) of utfdemo.txt: PASS
+cupsUTF8ToCharset(CUPS_ISO8859_1): PASS
+cupsCharsetToUTF8(CUPS_ISO8859_1): PASS
+cupsUTF8ToCharset(CUPS_ISO8859_7): PASS
+cupsCharsetToUTF8(CUPS_ISO8859_7): PASS
+cupsUTF8ToCharset(CUPS_WINDOWS_932): PASS
+cupsCharsetToUTF8(CUPS_WINDOWS_932): PASS
+cupsUTF8ToCharset(CUPS_EUC_JP): PASS
+cupsUTF8ToCharset(CUPS_WINDOWS_950): PASS
+cupsCharsetToUTF8(CUPS_WINDOWS_950): PASS
+cupsUTF8ToCharset(CUPS_EUC_TW): PASS
+cupsCharsetToUTF8(CUPS_EUC_TW): PASS
